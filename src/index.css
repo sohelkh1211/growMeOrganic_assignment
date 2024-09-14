@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.p-datatable-table {
+  border-collapse: collapse; 
+}
+
+.p-datatable-tbody > tr > td,
+.p-datatable-thead > tr > th {
+  border: 1px solid #d9d9d9; 
+}
+
+.p-checkbox-box {
+  border: 1px solid #d9d9d9 !important;
+}
+
+.p-checkbox-box .p-checkbox-icon {
+  color: #000 !important;
+}
+
+.p-paginator-pages {
+  display: flex;
+  gap: 0 10px;
+}
+
+.p-paginator .p-paginator-page.p-highlight {
+  background-color: #a6f0fa;
+  color: darkblue;
+  border-radius: 100%;
+}
+
+
+.p-paginator .p-paginator-page:hover {
+  background-color: #ccf8fe;
+  border-radius: 100%;
+}
+
+.p-overlaypanel.p-component {
+  width: 200px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
